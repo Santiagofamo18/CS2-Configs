@@ -20,14 +20,14 @@
 
 3. Pegar los archivos .cfg
 
-## Autoexec
+# Autoexec
 Antes de nada, para habilitar el Autoexec, hacer click derecho al juego en la biblioteca > Propiedades y en _Parámetros de lanzamiento_ escribir:
 ```
 +exec autoexec.cfg
 ```
 ![imagen](https://github.com/Santiagofamo18/CS2-Configs/assets/94525179/8f57d649-9867-49d9-8646-cfa5f2f0e870)
 
-### Binds por separado 
+## Binds por separado 
 Para añadir a un .cfg existente. 
 
 Para cambiar la tecla reemplaza el valor de la tecla por defecto, por ejemplo
@@ -38,7 +38,7 @@ Si la tecla por defecto es `t` y lo queremos cambiar por una `q`, lo reemplazamo
 
 ![imagen](https://github.com/Santiagofamo18/CS2-Configs/assets/94525179/8c41f2e2-b6d3-40f3-a595-3484c7af8842)
 
-#### Crouch Jump
+### Crouch Jump
 Salta y se agacha en el aire, para boosts
 **Tecla por defecto:** `space`
 
@@ -59,7 +59,7 @@ alias "+bomb" "slot3; slot5; drop"; alias "-bomb" "slot2; slot1"; bind "t" +bomb
 ```
 [Drop Bomb Bind](https://github.com/Santiagofamo18/CS2-Configs/assets/94525179/6e0936c7-e7c8-44d8-91f1-1d29540c2756)
 
-#### QuickSwitch 
+### QuickSwitch 
 Cambia al cuchillo cuando se pulsa y vuelve al arma anterior cuando se suelta la tecla.
 Útil para dejar de apuntar con el AWP si tienes el auto-scope activado. Tambien queda como muy pro
 
@@ -70,15 +70,15 @@ alias "+qsw" "slot3"; alias -qsw "lastinv";bind "q" +qsw
 [Quick Switch Bind](https://github.com/Santiagofamo18/CS2-Configs/assets/94525179/8155864a-4220-44ae-958f-5e0d559b4f98)
 
 
-#### Salto con rueda del ratón (Bunny Hop)
+### Salto con rueda del ratón (Bunny Hop)
 
-##### Salto con rueda arriba
+#### Salto con rueda arriba
 ```
 // Scroll Up to Jump
 bind "mwheelup" +jump
 ```
 
-##### Salto con rueda abajo
+#### Salto con rueda abajo
 ```
 // Scroll Down to Jump
 bind "mwheeldown" +jump
