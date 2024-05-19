@@ -2,7 +2,6 @@
 - Bindeo = Asignar una tecla a una acción
 - Algunos de estos bindeos se pueden hacer desde la consola del juego, otros solo funcionan si se ejecutan desde un autoexec
 - **LEER ATENTAMENTE PORQUE PUEDE REEMPLAZAR BINDEOS DE TECLAS YA EXISTENTES**
-- 
 ## Instalación de los cfg
 
 1. [Descargar los archivos](https://github.com/Santiagofamo18/CS2-Configs/archive/refs/heads/main.zip)
